@@ -1,0 +1,10 @@
+#01 - Don't bring drama from other channels into this room
+#02 - Bots are not to be brought into the room, excluding specially approved bots
+#03 - Arguments are to be settled at the single word of an operator
+#04 - Operators are not required to assume their status at any time
+#05 - Bans will be warranted without warning, as the channel is private and not required to give a warning
+#06 - If an unwarned ban lasts longer than two weeks ( 14 days ), PM an operator or Alissa herself
+#07 - All rules are to be followed, otherwise an op is allowed to kick
+#08 - If you find a user abusing operator status, notice Alissa immediately
+#09 - Lua is the best programming language
+#10 - Kasai is taken
