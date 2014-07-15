@@ -10,27 +10,42 @@
 	</head>
 	<!--This is the page that I use for information about the IRC channel-->
 	<body>
-		<div style="position:fixed;top:5px;right:5px;border-radius:5px;text-size:18px;"><a data-toggle="modal" data-target="#chat"> Webchat </a></div>
+		<div style="position:fixed;top:5px;right:5px;border-radius:5px;text-size:18px;"><a href="#" class="btn btn-default" data-toggle="modal" data-target="#webchat"> Webchat </a></div>
+		<div class="modal fade" id="webchat" tabindex="-1" role="dialog" aria-labelledby="Webchat Modal" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="chatLabel">Chat with me | Type <code>/nick [newname]</code> to change nicknames</h4>
+					</div>
+					<div class="modal-body">
+						<iframe src="http://webchat.esper.net/?nick=Website...&channels=alissa&fg_color=222222&fg_sec_color=444444&bg_color=eeeeee&prompt=1" class="frame"></iframe>
+					</div>
+					<div class="modal-footer">
+						&copy;AlissaSquared 2014
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="container">
-			<div style="background-color:#ff6600;text-size:14px;">
+			<div style="background-color:#ff6600;text-size:14px;border-radius:20px;padding:10px;">
 				<h2 style="text-align:center;width:100%;">
 					IRC rules
 				</h2>
-					<div class="container">
-						<ol>
-							<li>Don't bring in drama from other channels into this one.</li>
-							<li>Bots are to not be brought into the room unless Alissa allows them to be.</li>
-							<li>An operator can stop any argument either by kicking all parties or politely telling the parties to stop.</li>
-							<li>Operators are not required to set mode <code>+o</code> upon themself at any time.</li>
-							<li>Bans can be given without warning at any time to any user. If you think this is irrational, send Alissa a memo.</li>
-							<li>All bans are removed at the first of every month; don't abuse this.</li>
-							<li>All operators are allowed to kick any user for not following any rules, but they cannot kick if a user has yet to violate a rule.</li>
-							<li>Any operator found abusing their status will have their status removed.</li>
-							<li>Lua is the best programming language.</li>
-							<li>Kasai is taken. ALL MINE :3</li>
-						</ol>
-					</div>
-				<iframe style="width:100%;min-height:75%;" src="http://webchat.esper.net/?nick=Website...&channels=alissa&fg_color=222222&fg_sec_color=444444&bg_color=eeeeee&prompt=1" />
+				<div class="container">
+					<ol>
+						<li>Don't bring in drama from other channels into this one.</li>
+						<li>Bots are to not be brought into the room unless Alissa allows them to be.</li>
+						<li>An operator can stop any argument either by kicking all parties or politely telling the parties to stop.</li>
+						<li>Operators are not required to set mode <code>+o</code> upon themself at any time.</li>
+						<li>Bans can be given without warning at any time to any user. If you think this is irrational, send Alissa a memo.</li>
+						<li>All bans are removed at the first of every month; don't abuse this.</li>
+						<li>All operators are allowed to kick any user for not following any rules, but they cannot kick if a user has yet to violate a rule.</li>
+						<li>Any operator found abusing their status will have their status removed.</li>
+						<li>Lua is the best programming language.</li>
+						<li>Kasai is taken. ALL MINE :3</li>
+					</ol>
+				</div>
 			</div>
 		</div>
 		</div>
