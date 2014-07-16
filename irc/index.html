@@ -6,20 +6,11 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 		<link href="favicon.png" type="icon/png" rel="icon">
 		<title data-switch="IRC client">IRC rules</title>
-		<script type="text/javascript">
-			var title = document.getElementById( "title" );
-			var text;
-			function onClick( ) {
-				text = title.innerHTML;
-				title.innerHTML = jQuery.data( title, "switch" );
-				jQuery.data( title, "switch", text );
-			}
-		</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<!--This is the page that I use for information about the IRC channel-->
 	<body>
-		<div style="position:fixed;top:5px;right:5px;border-radius:5px;text-size:18px;"><a href="#" class="btn btn-default" data-toggle="modal" onclick="onClick()" data-target="#webchat"> Webchat </a></div>
+		<div style="position:fixed;top:5px;right:5px;border-radius:5px;text-size:18px;"><a href="#" class="btn btn-default" data-toggle="modal" data-target="#webchat"> Webchat </a></div>
 		<div class="container">
 			<div style="background-color:#ff6600;text-size:14px;border-radius:20px;padding:10px;">
 				<h2 style="text-align:center;width:100%;">
