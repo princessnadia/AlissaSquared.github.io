@@ -5,7 +5,16 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 		<link href="favicon.png" type="icon/png" rel="icon">
-		<title>IRC client</title>
+		<title data-switch="IRC client">IRC rules</title>
+		<script type="text/javascript">
+			var title = document.getElementById( "title" );
+			var text;
+			function onClick( ) {
+				text = title.innerHTML;
+				title.innerHTML = jQuery.data( title, "switch" );
+				jQuery.data( title, "switch", text );
+			}
+		</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<!--This is the page that I use for information about the IRC channel-->
