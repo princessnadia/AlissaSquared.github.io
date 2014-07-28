@@ -7,4 +7,3 @@
 #07 - All rules are to be followed, otherwise an op is allowed to kick
 #08 - If you find a user abusing operator status, notice Alissa immediately
 #09 - Lua is the best programming language
-#10 - Kasai is taken
